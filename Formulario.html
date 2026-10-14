@@ -34,18 +34,42 @@
             <label for="">Numero de Hermanos</label>
             <input type="number"> <br> <br>
             <label for="">Genero</label> <br>
-            <input type="radio" name="sexo" value="hombre">Hombre
-            <input type="radio" name="sexo" value="mujer">Mujer
+            <select name="" id="">
+                <option value="Hombre">Hombre</option>
+                <option value="Mujer">Mujer</option>
+            </select>
             <br> <br>
             <label for="">Semestre</label>
             <br>
-            <input type="radio" name="sem" value="1">Primero
-            <input type="radio" name="sem" value="2">Segundo
-            <input type="radio" name="sem" value="3">Tercero
-            <input type="radio" name="sem" value="4">Cuarto
-            <input type="radio" name="sem" value="5">Quinto
-            <input type="radio" name="sem" value="6">Sexto
-        </Fieldset>
+            <select name="" id="">
+                <option value="Primero">Primero</option>
+                <option value="Segundo">Segundo</option>
+                <option value="Tercero">Tercero</option>
+                <option value="Cuarto">Cuarto</option>
+                <option value="Quinto">Quinto</option>
+                <option value="Sexto">Sexto</option>
+            </select>
+            <br><br>
+            <label for="">Carrera</label>
+            <br>
+            <input type="text" list="comida">
+                                <datalist id="comida">
+                                    <select name="comida2" id="">
+                                        <option value="Programacion">Programacion</option>
+                                        <option value="Ventas">Ventas</option>
+                                        <option value="Ciberseguridad">Ciberseguridad</option>
+                                        <option value="Maquinas"> y herramientas</option>
+                                    </select>
+                                </datalist>
+            <br><br>
+            <label for="">Matricula</label>
+            <input type="hidden" value="171">
+            <br><br>
+            <label for="">Enviar (Condenarte)</label>
+            <input type="submit">
+            <br><br>
+            <label for="">Eliminar (Salvarte)</label>
+            <input type="reset">
     </center>
 </body>
 </html>
